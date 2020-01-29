@@ -10,7 +10,7 @@
                     <div class="learning_member_text">
                         <h3>PPH Pasal 22</h3>
                         <h2>Definisi</h2>
-                        <p>PPh Pasal 22 merupakan pajak yang dipungut oleh bendaharawan pemerintah, baik Pemerintah Pusat maupun Pemerintah Daerah; instansi atau Lembaga pemerintah dan Lembaga-lembaga negara lain yang berkenaan dengan pembayaran atas [enyerahan barang; dan badan-badan tertentu, baik badan pemerintah maupun swasta, berkenaan dengan kegiatan di bidang impor atau kegiatan usaha di bidang lain.  
+                        <p>PPh Pasal 22 merupakan pajak yang dipungut oleh bendaharawan pemerintah, baik Pemerintah Pusat maupun Pemerintah Daerah; instansi atau Lembaga pemerintah dan Lembaga-lembaga negara lain yang berkenaan dengan pembayaran atas penyerahan barang; dan badan-badan tertentu, baik badan pemerintah maupun swasta, berkenaan dengan kegiatan di bidang impor atau kegiatan usaha di bidang lain.  
                         <br>
                         PPh Pasal 22 dibayar dalam tahun berjalan melalui pemotongan atau pemungutan oleh pihak-pihak tertentu. Selanjutnya, pemotong/pemungut akan menyetor dan melaporkan pajak yang telah dipotong/dipungut
                         </p>

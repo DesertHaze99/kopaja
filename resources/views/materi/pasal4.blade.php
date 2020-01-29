@@ -10,7 +10,7 @@
                     <div class="learning_member_text">
                         <h3>PPH Pasal 4 Ayat 2</h3>
                         <h2>Definisi</h2>
-                        <p>PPh Pasal 21 adalah pajak yang dipotong dari penghasilan sehubungan dengan pekerjaan, jasa, dan kegiatan yang dilakukan oleh Wajib Pajak (WP) orang pribadi dalam negeri, yaitu penghasilan berupa gaji, upah, honorarium, tunjangan, serta pembayaran lain dengan nama dan dalam bentuk apapun.
+                        <p>PPh Pasal 4 Ayat (2) adalah pajak yang dipotong dari penghasilan dengan perlakuan tersendiri yang diatur melalui peraturan pemerintah dan bersifat final. Pemotongan PPh Final Pasal 4 Ayat (2) dilkukan oleh pihak pemberi penghasilan sehubungan dengan pembayaran untuk objek tertentu seperti sewa tanah dan/atau bangunan, jasa konstruksi, pengalihan ha katas tanah dan/atau bangunan dan lainnya. Yang dimaksud final disini bahwa pajak yang dipotong, dipungut oleh pihak pemberi penghasilan atau dibayar sendiri oleh pihak penerima penghasilan, penghitungan pajaknya sudah selesai dan tidak dapat dikreditkan lagi dalam penghitungan PPh pada SPT Tahunan. 
                         </p>
                         <section class="feature_part">
                             <div class="container">

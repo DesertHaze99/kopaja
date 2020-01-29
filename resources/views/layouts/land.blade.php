@@ -32,7 +32,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand" href="{{Route('landing')}}"> <img src="{{url('/')}}/etrain/img/logo.png" width="80px" alt="logo"> </a>
+                        <a class="navbar-brand" href="{{Route('index')}}"> <img src="{{url('/')}}/etrain/img/logo.png" width="80px" alt="logo"> </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +43,7 @@
                             id="navbarSupportedContent">
                             <ul class="navbar-nav align-items-center">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="{{Route('landing')}}">Beranda</a>
+                                    <a class="nav-link" href="{{Route('index')}}">Beranda</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -52,10 +52,11 @@
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="{{Route('pasal4')}}">PPH Pasal 4 ayat 2</a>
                                         <a class="dropdown-item" href="{{Route('pasal15')}}">PPh Pasal 15</a>
-                                        <a class="dropdown-item" href="{{Route('pasal21')}}">PPh Pasal 21/26</a>
+                                        <a class="dropdown-item" href="{{Route('pasal21')}}">PPh Pasal 21</a>
                                         <a class="dropdown-item" href="{{Route('pasal22')}}">PPh Pasal 22</a>
                                         <a class="dropdown-item" href="{{Route('pasal23')}}">PPh Pasal 23</a>
                                         <a class="dropdown-item" href="{{Route('pasal25')}}">PPh Pasal 25</a>
+                                        <a class="dropdown-item" href="{{Route('pasal26')}}">PPh Pasal 26</a>
                                         <a class="dropdown-item" href="{{Route('ppn')}}">PPN</a>
                                         <a class="dropdown-item" href="{{Route('pnbm')}}">PPnBM</a>
                                         <a class="dropdown-item" href="{{Route('beamaterai')}}">Bea Materai</a>
@@ -78,7 +79,28 @@
                                     <a class="nav-link" href="{{Route('tentang')}}">Tentang</a>
                                 </li>
                                 <li class="d-none d-lg-block">
-                                    <a class="btn_1" href="#">Sign In</a>
+                                    @guest
+                                        <a class="btn_1" href="{{ route('login') }}">Sign In</a>
+                                                                               
+                                    @else
+                                        <li class="nav-item dropdown">
+                                            <a id="navbarDropdown" class="btn_1 nav-link dropdown-toggle py-2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre style="color:white;">
+                                                Halo, {{Auth::user()->first_name}}! <span class="caret"></span>
+                                            </a>
+
+                                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="{{ route('logout') }}"
+                                                onclick="event.preventDefault();
+                                                                document.getElementById('logout-form').submit();">
+                                                    {{ __('Logout') }}
+                                                </a>
+
+                                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                                    @csrf
+                                                </form>
+                                            </div>
+                                        </li>
+                                    @endguest
                                 </li>
                             </ul>
                         </div>
@@ -97,7 +119,7 @@
             <div class="row justify-content-between">
                 <div class="col-sm-6 col-md-4 col-xl-3">
                     <div class="single-footer-widget footer_1">
-                        <a href="{{Route('landing')}}"> <img src="{{url('/')}}/etrain/img/logo.png" alt="gambar"> </a>
+                        <a href="{{Route('index')}}"> <img src="{{url('/')}}/etrain/img/logo.png" alt="gambar"> </a>
                         <p>Kopaja adalah organisasi yang bergerak pada bidang pendidikan di Indonesia yang berfokus pada layanan
                             berbasis pendidikan khususnya Pajak. </p>
                         <p></p>
@@ -105,26 +127,13 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-xl-4">
                     <div class="single-footer-widget footer_2">
-                        <h4>Suscribe</h4>
-                        <p>Tetap terpantau dengan kami dengan mengisi email anda di sini.
-                        </p>
-                        <form action="#">
-                            <div class="form-group">
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder='Enter email address'
-                                        onfocus="this.placeholder = ''"
-                                        onblur="this.placeholder = 'Enter email address'">
-                                    <div class="input-group-append">
-                                        <button class="btn btn_1" type="button"><i class="ti-angle-right"></i></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                        <div class="social_icon">
-                            <a href="#"> <i class="ti-facebook"></i> </a>
-                            <a href="#"> <i class="ti-twitter-alt"></i> </a>
-                            <a href="#"> <i class="ti-instagram"></i> </a>
-                            <a href="#"> <i class="ti-skype"></i> </a>
+                        <h4>Sosial Media Kami</h4>
+                        <p>Ikuti kami di kanal berikut</p>
+                        <div class="social_icon" >
+                            <a href="https://www.facebook.com/kompaspajak.ac.id/"> <i class="ti-facebook" style="font-size:30px;"></i> </a>
+                            <a href="https://twitter.com/kompaspajak/"> <i class="ti-twitter-alt" style="font-size:30px;"></i> </a>
+                            <a href="https://www.instagram.com/kompaspajak/"> <i class="ti-instagram" style="font-size:30px;"></i> </a>
+                            <a href="#"> <i class="ti-line" style="font-size:30px;"></i> </a>
                         </div>
                     </div>
                 </div>

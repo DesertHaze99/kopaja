@@ -24,11 +24,11 @@
                   <div class="blog_details">
                      <h1>Praktik Perhitungan</h1>
                      <br>
-                     <h4>1) Penghasilan Tahunan s/d Rp50 Juta. (Tarif Pajak 5%))</h4>
+                     <h4>1) Penghasilan Tahunan s/d Rp50 Juta. (Tarif Pajak 5%)</h4>
                      <p class="excert" style="text-align: justify;">
                         Contoh Kasus :
                         <br>
-                        Tommy bekerja di Universitas Gadjah Mada. Ia memperoleh sebulan berupa gaji pokok Rp6.000.000,-. Tommy membayar iuran pension sebesar Rp100.000,-. Tommy sudah menikah, tetapi belum mempunyai anak. Hitunglah PPh Pasal 21!
+                        Tommy bekerja di Universitas Gadjah Mada. Ia memperoleh sebulan berupa gaji pokok Rp6.000.000,-. Tommy membayar iuran pensiun sebesar Rp100.000,-. Tommy sudah menikah, tetapi belum mempunyai anak. Hitunglah PPh Pasal 21!
                       </p>
                      <div class="quote-wrapper">
                         <div class="quotes">

@@ -10,7 +10,7 @@
                     <div class="learning_member_text">
                         <h3>PPH Pasal 15</h3>
                         <h2>Definisi</h2>
-                        <p>Pasal 15 Undang-Undang Pajak Penghasilan menyebutkan tentang penetapan Norma Penghitungan Khusus guna menghitung penghasilan neto bagi Wajib Pajak tertentu yang tidak dapat dihitung dengan ketentuan umum sebagaimana diatur Dallam Pasal 16 UU PPh. 
+                        <p>Pasal 15 Undang-Undang Pajak Penghasilan menyebutkan tentang penetapan Norma Penghitungan Khusus guna menghitung penghasilan neto bagi Wajib Pajak tertentu yang tidak dapat dihitung dengan ketentuan umum sebagaimana diatur dalam Pasal 16 UU PPh. 
                         </p>
                         <section class="feature_part">
                             <div class="container">

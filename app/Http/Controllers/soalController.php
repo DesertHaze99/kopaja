@@ -11,6 +11,11 @@ use DB;
 
 class soalController extends Controller {
 
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     public function soal(Request $request){
         $ppnbm = json_decode(file_get_contents('https://my-json-server.typicode.com/sabdobramastyo98/ppnbm/ppnbm'), true);
         $j=1;

@@ -166,6 +166,32 @@ class DownloadController extends Controller {
         return response()->download($file, 'Materi PPnBM.pdf', $headers);
     }
 
+
+    public function allSOal( Request $request )
+    {   
+        //PDF file is stored under project/public/download/info.pdf
+        $file= public_path(). "/download/SOAL PERPAJAKAN + Kunci Jawaban.pdf";
+        // $file= public_path(). "/download/info.pdf";
+        
+        $headers = [
+            'Content-Type' => 'application/pdf',
+        ];
+
+        return response()->download($file, 'SOAL PERPAJAKAN + Kunci Jawaban.pdf', $headers);
+    }
+
+    public function allMateri( Request $request )
+    {   
+        //PDF file is stored under project/public/download/info.pdf
+        $file= public_path(). "/download/materi.zip";
+        // $file= public_path(). "/download/info.pdf";
+        
+        $headers = [
+            'Content-Type' => 'application/zip',
+        ];
+
+        return response()->download($file, 'Semua Materi.zip', $headers);
+    }
 }
 
 

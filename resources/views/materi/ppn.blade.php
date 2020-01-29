@@ -83,14 +83,6 @@
                         </ol>
                         </div>
                     </div>
-                    <div class="content_wrapper">
-                        <h4 class="title_top">Cara Menghitung Pajak  </h4>
-                        <div class="content">
-                        
-                        </div>
-                    </div>
-
-                    
                 </div>
 
 

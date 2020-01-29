@@ -10,7 +10,7 @@
                     <div class="learning_member_text">
                         <h3>PPB</h3>
                         <h2>Definisi</h2>
-                        <p>Pajak Bumi dan Bangunan (PBB) adalah pajak Negara yang dikenakan terhadap bumi dan/atau bangunan berdasarkan Undang-Undang No. 12 Tahun 1985 tentang Bumi dan Bangunan sebagaimana telah diubah terakhir dengan Undang-Undang No. 12 Tahun 1994. “PBB adalah pajak kebendaan atas bumi dan/atau bangunan yang dikenakan terhadap orang atau badan yang secara nyata mempunyai suatu ha katas bumi, dan/atau memperoleh manfaat atas bumi, dan/atau memiliki, menguasai, dan/atau memperoleh manfaat atas bangunan. PBB termasuk dalam pengertian pajak objektif, artinya besarnya pajak terutang ditentukan oleh keadaan objek pajak, yaitu tanah dan/atau bangunan, sedangkan keadaan subjek pajaknya tidak menentukan besarnya pajak”. 
+                        <p>Pajak Bumi dan Bangunan (PBB) adalah pajak Negara yang dikenakan terhadap bumi dan/atau bangunan berdasarkan Undang-Undang No. 12 Tahun 1985 tentang Bumi dan Bangunan sebagaimana telah diubah terakhir dengan Undang-Undang No. 12 Tahun 1994. “PBB adalah pajak kebendaan atas bumi dan/atau bangunan yang dikenakan terhadap orang atau badan yang secara nyata mempunyai suatu hak atas bumi, dan/atau memperoleh manfaat atas bumi, dan/atau memiliki, menguasai, dan/atau memperoleh manfaat atas bangunan. PBB termasuk dalam pengertian pajak objektif, artinya besarnya pajak terutang ditentukan oleh keadaan objek pajak, yaitu tanah dan/atau bangunan, sedangkan keadaan subjek pajaknya tidak menentukan besarnya pajak”. 
                         </p>
                         <section class="feature_part">
                             <div class="container">

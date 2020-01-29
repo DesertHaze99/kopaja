@@ -70,11 +70,11 @@
                         Kamu bisa menghubungi KOPAJA melalui:
                         <ul class="unordered-list">
                                 <li>No. HP/WA   : 0823-2456-4853</li>
-                                <li>Email : </li>
-                                <li>Facebook    : https://www.facebook.com/kompaspajak.ac.id/</li>
-                                <li>Twitter : https://twitter.com/kompaspajak/</li>
-                                <li>Line : </li>
-                                <li>Instagram   : https://www.instagram.com/kompaspajak/</li>
+                                <li>Email : kompaspajak@gmail.com</li>
+                                <li>Facebook    : kompaspajak.ac.id</li>
+                                <li>Twitter : @kompaspajak</li>
+                                <li>Line : @164ytkj9</li>
+                                <li>Instagram   : kompaspajak</li>
                             </ul>
                         </div>
                        <br><br><br><br><br>             
